@@ -1,0 +1,649 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Reforma Grotesk Medium';
+    src: url('fonts/ReformaGroteskMediumC.eot');
+    src: url('fonts/ReformaGroteskMediumC.eot?#iefix') format('embedded-opentype'),
+    url('fonts/ReformaGroteskMediumC.woff') format('woff'),
+    url('fonts/ReformaGroteskMediumC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Reforma Grotesk Demi';
+    src: url('fonts/ReformaGroteskDemiC.eot');
+    src: url('fonts/ReformaGroteskDemiC.eot?#iefix') format('embedded-opentype'),
+    url('fonts/ReformaGroteskDemiC.woff') format('woff'),
+    url('fonts/ReformaGroteskDemiC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Reforma Grotesk Bold';
+    src: url('fonts/ReformaGroteskBoldC.eot');
+    src: url('fonts/ReformaGroteskBoldC.eot?#iefix') format('embedded-opentype'),
+    url('fonts/ReformaGroteskBoldC.woff') format('woff'),
+    url('fonts/ReformaGroteskBoldC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@media screen and (max-width: 430px) {
+    body header{
+        width: 430px;
+        height: 932px;
+        display: flex;
+        background-position: center;
+    }
+    header nav{
+        width: 430px;
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    nav .links{
+        width: 300px;
+        height: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .link a{
+        font-size: 16px;
+        display: flex;
+        height: 20px;
+    }
+    .kartina{
+        width: 50px;
+        height: 20px;
+    }
+    div.centre{
+        width: 430px;
+        height: 662px;
+    }
+    p.texts{
+        font-size: 104px;
+        width: 340px;
+        height: 100px;
+        line-height: 110px;
+    }
+    p.lorem{
+        width: 300px;
+        height: 200px;
+    }
+    div.knopka{
+        width: 140px;
+        height: 60px;
+    }
+    div.lala{
+        right: 140px;
+    }
+    div.knopka:hover > div.lala{
+        right: 70px;
+    }
+    table.tablele, tr.pervitr{
+        width: 430px;
+        height: 220px;
+    }
+    th.yaystal{
+        width: 33.33%;
+        height: 220px;
+    }
+    p.yaystal1{
+        font-size: 20px;
+    }
+    p.yaystal2, p.yaystal3{
+        font-size: 16px;
+        letter-spacing: 0;
+        width: 100%;
+    }
+    p.yaystallor{
+        font-size: 16px;
+        width: 80%;
+        line-height: 20px;
+        height: 100px;
+    }
+    main section.one{
+        width: 430px;
+        height: 662px;
+        display: flex;
+    }
+    div.main-1-con{
+        width: 300px;
+        height: 600px;
+    }
+    div.dada, div.vovkakdela{
+        width: 150px;
+        height: 600px;
+    }
+    div.dada{
+        font-size: 24px;
+        line-height: 30px;
+        width: 120px;
+        height: 190px;
+        letter-spacing: 0px;
+    }
+    div.lolo{
+        height: 50px;
+        width: 100px;
+    }
+    img.lolomg{
+        height: 10px;
+        width: 100px;
+    }
+    div.bollor{
+        width: 120px;
+        height: 350px;
+        font-size: 20px;
+        line-height: 22px;
+        letter-spacing: 0px;
+    }
+    div.obshi, div.obshi2{
+        width: 75px;
+        height: 540px;
+    }
+    div.block11{
+        width: 73px;
+        height: 133px;
+    }
+    div.cifra p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    span.yaya{
+        font-size: 32px;
+        line-height: 32px;
+    }
+    div.textlala{
+        font-size: 10px;
+        line-height: 14px;
+        width: 100%;
+    }
+    div.imgtb{
+        width: 30px;
+        height: 37px;
+    }
+    div.imgtb img{
+        width: 30px;
+    }
+    main section.two{
+        width: 430px;
+        height: 180px;
+    }
+    div.main-2{
+        width: 430px;
+        height: 140px;
+    }
+    div.xzkak, div.xzkak2{
+        width: 50px;
+        height: 140px;
+    }
+    button.prev, button.next{
+        width: 18px;
+        height: 18px;
+        border: 1px solid #DB3138;
+    }
+    img.batankp, img.zszs{
+        width: 4px;
+    }
+    div.slkon{
+        width: 320px;
+        height: 140px;
+    }
+    div.slider{
+        width: 320px;
+        height: 140px;
+    }
+    div.glock, div.glock2, div.glock3{
+        width: 100px;
+        height: 140px;
+        background-size: 120px;
+        background-position: top;
+    }
+    div.glockimg{
+        width: 80px;
+        height: 20px;
+    }
+    p.glocktxtt{
+        width: 80px;
+        height: 40px;
+        font-size: 8px;
+        line-height: 8px;
+        letter-spacing: 0;
+        margin-top: -10px;
+    }
+}
+header{
+    width: 100%;
+    height: 1000px;
+    background-image: url(img/Rectangle\ 64.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.links{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .link{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Reforma Grotesk Medium';
+    font-weight: lighter;
+}
+.centre{
+    width: 30%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.texts{
+    width: 100%;
+    height: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: #DB3138;
+    font-size: 150px;
+    font-family: 'Reforma Grotesk Bold';
+    text-transform: uppercase;
+    line-height: 150px;
+}
+.rombick{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lorem{
+    width: 80%;
+    height: 120px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Reforma Grotesk Medium';
+    text-align: center;
+    line-height: 50px;
+}
+.knopka{
+    width: 25%;
+    height: 60px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+    overflow: hidden;
+}
+.knopkatxt{
+    color: white;
+    font-size: 24px;
+    font-family: 'Reforma Grotesk Demi';
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 1;
+}
+.lala{
+    position: absolute;
+    width: 50%;
+    height: 60px;
+    background-color: #DB3138;
+    right: 142px;
+    transition: 1s;
+    z-index: 0;
+}
+.knopka:hover > .lala{
+    right: 71px;
+}
+.tablele{
+    width: 100%;
+    height: 200px;
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+.pervitr{
+    display: flex;
+    flex-direction: row;
+}
+.yaystal{
+    width: 33.33%;
+    height: 200px;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.yaystal1{
+    color: white;
+    font-size: 24px;
+    font-family: 'Reforma Grotesk Demi';
+    letter-spacing: 1px;
+    line-height: 32px;
+    height: 40px;
+}
+.yaystallor{
+    color: #DB3138;
+    font-size: 24px;
+    font-family: 'Reforma Grotesk Demi';
+    letter-spacing: 1px;
+    line-height: 32px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+.yaystal1, .yaystal2, .yaystal3{
+    color: #DB3138;
+    font-size: 24px;
+    font-family: 'Reforma Grotesk Demi';
+    letter-spacing: 1px;
+    line-height: 32px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+section.one {
+    background-color: #141414;
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-1-con{
+    width: 69%;
+    height: 800px;
+    display: flex;
+}
+.vieb{
+    width: 50%;
+    height: 800px;
+}
+.dada{
+    width: 90%;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Reforma Grotesk Demi';
+    font-size: 52px;
+    line-height: 68px;
+    letter-spacing: 2px;
+}
+.lolo{
+    height: 120px;
+    width: 147px;
+    display: flex;
+    align-items: center;
+}
+.lolomg{
+    width: 100%;
+    height: 16px;
+}
+.bollor{
+    width: 80%;
+    color: white;
+    font-family: 'Reforma Grotesk Medium';
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    margin-top: 6px;
+}
+.vovkakdela{
+    width: 50%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.obshi{
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.obshi2{
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.block11{
+    height: 188px;
+    border: 1px solid #898989;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cifra{
+    color: #DB3138;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.yaya{
+    font-size: 50px;
+    font-family: 'Reforma Grotesk Demi';
+}
+.textlala{
+    width: 80%;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Reforma Grotesk Demi';
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    margin-top: 16px;
+}
+section.two{
+    width: 100%;
+    height: 580px;
+    background-color: #141414;
+    margin: 0 auto;
+}
+.main-2{
+    width: 92%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.xzkak, .xzkak2{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.knopkasl{
+    width: 50px;
+    height: 50px;
+    border: 3px solid #DB3138;
+    rotate: 45deg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #141414;
+    cursor: pointer;
+}
+.batankp{
+    rotate: 135deg;
+}
+.zszs{
+    rotate: -45deg;
+}
+.glock{
+    width: 416px;
+    height: 420px;
+    background-image: url(img/Rectangle\ 45.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+}
+.glock2{
+    width: 416px;
+    height: 420px;
+    background-image: url(img/Rectangle\ 47.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+}
+.glock3{
+    width: 416px;
+    height: 420px;
+    background-image: url(img/Rectangle\ 49.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+}
+.glockimg{
+    width: 90%;
+    height: 70px;
+    background-color: #DB3138;
+    margin-top: 50px;
+}
+.glocktxtt{
+    font-size: 18px;
+    color: white;
+    font-family: 'Reforma Grotesk Demi';
+    width: 60%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: -36px;
+}
+.slider{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+.slkon{
+    overflow: hidden;
+    width: 85%;
+    height: 420px;
+    display: flex;
+    flex-direction: row;
+}
+.mainspace{
+    width: 100%;
+    height: 900px;
+    margin: 0 auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+}
+
+.firrst{
+    height: 663px;
+    width: 648px;  
+   
+}
+
+.seccond{
+    height: 663px;
+    width: 648px;
+   
+}
+
+.mashinka{
+    width: 57px;
+    height: 70px;
+}
+
+.bigtext{
+    width: 423px;
+    height: 43px;
+    font-family: 'ReformaC';
+    font-size: 32px;
+    line-height: 140%;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 37px;
+}
+
+.name1{
+    display: flex;  
+}
+
+.texxt{
+    margin-top: 30px;
+    width: 526px;
+    height: 58px;
+    font-family: 'Reforma';
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.72px;
+    color: white;
+}
+
+.itnotdots12{
+    margin-left: 200px;
+    margin-top: 80px;
+    width: 146px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name2{
+    display: flex;
+    margin-top: 40px;  
+}
+.tri{
+    background-color: #141414;
+    width: 100%;
+    height: 900px;
+    display: flex;
+
+}
